@@ -11,11 +11,11 @@ const RaceSchema = mongoose.Schema({
     },
     street: {
         type: String,
-        required: true
+        default: true
     },
     city: {
         type: String,
-        required: true
+        default: true
     },
     country: {
         type: String,

@@ -300,9 +300,6 @@ components:
       required:
         - date
         - teams
-        - street
-        - city
-        - active
       properties:
         date:
           type: string
@@ -311,6 +308,8 @@ components:
         street:
           type: string
         city:
+          type: string
+        country:
           type: string
         active:
           type: boolean
